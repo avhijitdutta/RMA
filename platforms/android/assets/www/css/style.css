@@ -1,0 +1,157 @@
+/* Empty. Add your own CSS if you like */
+body{
+    color: #ffffff;
+}
+.background-app{
+    background: #4e59ad;
+}
+
+.promotional-content .slider-slide .img-container{
+    width: 120px;
+    margin: auto;
+    margin-top: 90px;
+}
+
+.promotional-content .slider-slide .img-container img{
+    width: 100%;
+}
+
+.promotional-content .img-slider-content{
+    text-align: center;
+}
+
+.promotional-content .img-slider-content .slider-slide h3{
+    color: #ffffff;
+}
+
+
+.app-background{
+    background: url("../images/background.png") no-repeat;
+    background-size: 100% 100%;
+}
+.login{
+    text-align: center;
+}
+
+.login h1{
+    font-size: 92px;
+    font-weight: bold;
+    line-height: 55px;
+}
+
+.login h5{
+    font-size: 20px;
+}
+.login .image-container{
+    width: 110px;
+    margin: auto;
+    padding-top: 5%;
+}
+
+.login .image-container img{
+    width: 100%;
+}
+.login .login-header{
+    color: #000000;
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+.login .item-input .icon-container{
+    border-right: 1px solid #07b7e9;
+    padding: 10px 16px;
+    margin-right: 5px;
+}
+
+
+.login .item-input img{
+    width: 16px;
+}
+
+.login .item{
+    padding:0;
+    background: inherit;
+    border: 1px solid #07b7e9;
+}
+
+.login .item:first-child{
+    border-bottom: 0;
+}
+.form-container{
+    padding: 20px 10px;
+}
+
+.footer-background{
+    background: url("../images/footer_background.png") no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+}
+
+.footer-background div{
+    margin: auto;
+    font-size: 22px;
+    margin-bottom: 8px;
+}
+
+.rma-header{
+    background: #07b8e8;
+    color: #ffffff;
+}
+
+.rma-header.bar .buttons > .button{
+    color: #ffffff;
+}
+
+.item-divider .view-all{
+    float: right;
+    text-decoration: none;
+    color: #000000;
+}
+
+.dashboard .bar-subheader{
+    height: 145px;
+    background: #07b8e8;
+    text-align: center;
+}
+
+.dashboard .bar-subheader h4{
+    color: #ffffff;
+}
+
+
+.dashboard .depertment{
+    color: #046580;
+}
+
+.dashboard .has-subheader {
+    top: 192px;
+}
+
+.dashboard .image-container{
+    width: 70px;
+    height: 70px;
+    margin: auto;
+    border: 3px solid #ffffff;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.dashboard .image-container img{
+    width: 100%;
+}
+
+.dashboard a.item{
+    padding: 2px;
+}
+.dashboard a.item .image-text-container{
+    display: inline-block;
+    background: #f5f6f8;
+}
+
+.dashboard a.item .image-text-container div{
+
+}
+
+.dashboard .item .text-container {
+    display: inline-block;
+}
