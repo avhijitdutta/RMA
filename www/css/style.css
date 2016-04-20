@@ -145,7 +145,7 @@ body{
 }
 
 .dashboard .item h2{
-    font-size: 15px;
+    font-size: 17px;
     font-weight: 600;
 }
 
@@ -169,6 +169,7 @@ body{
 
 .dashboard .item .text-container {
     display: inline-block;
+    vertical-align: -4px;
 }
 
 .dashboard .item .date-container{
@@ -177,11 +178,39 @@ body{
     text-align: center;
     float: right;
     line-height: 18px;
-    margin-right: 8px;
+    margin-top: 2px;
+    padding: 0px 11px;
     
 }
 
 .dashboard .item .date-container .date{
     font-size: 23px;
     font-weight: 600;
+}
+
+.dashboard .user-list-parent a.item .image-text-container{
+    padding: 0
+}
+
+.dashboard .user-list-parent a.item .image-text-container img{
+    width:100%;
+    vertical-align: -2px;
+}
+
+.dashboard .user-list-parent a.item .user-status{
+    padding: 6px 12px;
+    margin-top: 0px;
+    color: #ffffff;
+}
+
+.dashboard .user-list-parent a.item .user-status-danger{
+   background:#e00404;   
+}
+
+.dashboard .user-list-parent a.item .user-status-normal{
+   background:#04e042;   
+}
+
+.dashboard .user-list-parent a.item .user-status-medium{
+   background:#ffaf14;   
 }
