@@ -124,7 +124,7 @@ body{
 }
 
 .dashboard .has-subheader {
-    top: 192px;
+    top: 189px;
 }
 
 .dashboard .image-container{
@@ -141,17 +141,47 @@ body{
 }
 
 .dashboard a.item{
-    padding: 2px;
+    padding: 0;
 }
+
+.dashboard .item h2{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.dashboard .item p{
+    font-size:12px;
+}
+
 .dashboard a.item .image-text-container{
     display: inline-block;
     background: #f5f6f8;
+    padding: 5px;
+    color: #6F6F6F;
+    text-align: center;
+    width: 64px;
+    font-size: 12px;
 }
 
-.dashboard a.item .image-text-container div{
-
+.dashboard a.item .image-text-container img{
+    width:25px;
 }
 
 .dashboard .item .text-container {
     display: inline-block;
+}
+
+.dashboard .item .date-container{
+    color: #6F6F6F;
+    font-size: 12px;
+    text-align: center;
+    float: right;
+    line-height: 18px;
+    margin-right: 8px;
+    
+}
+
+.dashboard .item .date-container .date{
+    font-size: 23px;
+    font-weight: 600;
 }
